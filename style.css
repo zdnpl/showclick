@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Roboto+Mono&display=swap");
+
+body {
+  background: #18191a;
+  font-family: "Poppins", sans-serif;
+}
+
+.playing-spot {
+  max-width: 900px;
+  background: #242526;
+  margin-top: 8.5%;
+  padding: 30px;
+  border-radius: 15px;
+  display: none;
+}
+
+.title,
+.navbar-brand {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+marquee {
+  padding: 5px;
+  margin-bottom: -10px;
+  margin-top: -10px;
+}
+
+.marquee-text {
+  background: #2b6bf7;
+  text-decoration: none;
+  padding: 20px;
+  max-width: 400px;
+}
+
+.click-zone {
+  position: relative;
+  display: inline-block;
+  padding: 200px 0;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 15px;
+  overflow: hidden;
+  user-select: none;
+  background: #242526;
+  border: 1px solid #fff;
+  margin: auto;
+  display: block;
+}
+
+@keyframes clicked {
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0.5;
+  }
+  100% {
+    width: 500px;
+    height: 500px;
+    opacity: 0;
+  }
+}
+
+#show-result {
+  display: none;
+  background: #2b6bf6;
+  margin: auto;
+  color: #fff;
+  margin-top: 9%;
+}
+
+.onPlay {
+  display: none;
+}
+
+.beforePlay {
+  transition: 0.2s;
+}
+
+.beforePlay:hover {
+  background: #000;
+}
+
+.g-signin2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 100px;
+  margin-left: -125px;
+}
+
+.loginPage {
+  max-width: 400px;
+  background: #242526;
+  padding: 100px;
+  margin-top: 250px;
+  border-radius: 20px;
+}
+
+.nav-page {
+  display: none;
+}
+
+.result-page {
+  display: none;
+  margin-top: 10%;
+}
+
+@media screen and (max-width: 425px) {
+  .g-signin2 {
+    margin-top: 130px;
+  }
+  .loginPage {
+    margin-top: 130px;
+  }
+}
