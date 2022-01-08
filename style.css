@@ -67,7 +67,7 @@ marquee {
   background: #2b6bf6;
   margin: auto;
   color: #fff;
-  margin-top: 9%;
+  margin-top: 200px;
 }
 
 .onPlay {
@@ -104,7 +104,7 @@ marquee {
 
 .result-page {
   display: none;
-  margin-top: 10%;
+  margin-top: 200px;
 }
 
 .cheaterPage {
